@@ -1,0 +1,114 @@
+{
+    "cinema": {
+        "name": "sds",
+        "location": "Hyderabad",
+        "rating": 3.5,
+        "isBookingsOpen": true,
+        "layout": {
+            "upperBalcony": [
+                {
+                    "id": 1,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 2,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 3,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 4,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 5,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 6,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 7,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 8,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 9,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 10,
+                    "isAvailable": true,
+                    "isActive": false
+                }
+            ],
+            "lowerBalcony": [
+                {
+                    "id": 1,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 2,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 3,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 4,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 5,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 6,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 7,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 8,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 9,
+                    "isAvailable": true,
+                    "isActive": false
+                },
+                {
+                    "id": 10,
+                    "isAvailable": true,
+                    "isActive": false
+                }
+            ]
+        }
+    }
+}

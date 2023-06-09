@@ -1,0 +1,11 @@
+<ng-container *ngIf="cinema">
+    <h1>Name: {{ cinema.name }}</h1>
+    <p>Location: {{ cinema.location }}</p>
+    <p>Rating: {{ cinema.rating }}</p>
+    <p>Bookings Open: {{ cinema.isBookingsOpen }}</p>
+    <h2 style="padding: 50px;">Upper Balcony</h2>
+    <app-seat [balconySection]="cinema.layout.upperBalcony"></app-seat>
+    
+</ng-container>
+<!-- <h2>Lower Balcony</h2>
+    <app-seat [balconySection]="cinema.layout.lowerBalcony"></app-seat> -->

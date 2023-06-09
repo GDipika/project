@@ -1,0 +1,31 @@
+<div class="seat-wrapper ">
+  <div class="seat-grid">
+    <button class="btn" *ngFor="let seat of balconySection" [class.btn-success]="seat.isAvailable && !seat.isActive"
+      [class.btn-secondary]="seat.isAvailable && seat.isActive" [disabled]=" !seat.isAvailable"
+      [disabled]="seat.isActive && !seat.isAvailable" [class.btn-warning]="seat.isActive && !seat.isAvailable"
+      (click)="toggleSeat(seat)" >
+      <!-- {{seat.isActive}} ----- {{!seat.isAvailable}} -->
+      {{ seat.id }}
+    </button>
+  </div>
+  <div class="button1">
+    <button class="btn btn-success"  (click)="bookSeats()">Book Now</button>
+  </div>
+
+
+
+  <!-- <button [class.btn-warning]="seat.isActive && isBooked" 
+        [disabled]="isClicked" 
+        (click)="toggleSeat(seat); isClicked = true;">
+  Select Seat
+</button> -->
+
+  <!-- <div class="seat-selection">
+  <h2>Select your seats</h2>
+  <div class="seat-grid">
+    <div *ngFor="let seat of balconySection" [class.selected]="seat.isAvailable" [class.unavailable]="!seat.isAvailable" (click)="toggleSeat(seat)">
+      {{ seat.id }}
+    </div>
+  </div>
+  <button (click)="bookSeats()">Book Now</button>
+</div>   -->
